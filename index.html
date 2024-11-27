@@ -1,86 +1,42 @@
-<html>
-    <head>
-        <title>Basics Of HTML</title>
-    </head>
-    <body>
-<form action="">
-    <div>
-    <label for="">First name:</label>
-    <br>
-    <input type="text">
-    </div>
-    <div>
-    <label for="">Last name:</label>
-    <br>
-    <input type="text">
-    </div>
-    <div>
-    <label for="">Email:</label>
-    <br>
-    <input type="email">
-    </div>
-    <div>
-    <label for="">Password:</label>
-    <br>
-    <input type="password">
-    </div>
-    
-
-    <div>
-        <label for="">Gender</label>
-        <div>
-            <label="">Male</label>
-        <input type="radio" name="gender">
-        </div>
-        <div>
-            <label="">Female</label>
-        <input type="radio" name="gender">
-        </div>
-        <div>
-            <label="">Other</label>
-        <input type="radio" name="gender">
-        </div>
-    </div>
-
-
-        <div>
-            <label for="">Age</label>
-            <input type="number" min="1" max="100">
-        </div>
-
-        <div>
-            <label for="">Preferences:</label>
-        </div>
-
-        <div>
-                <label for="">Acrylic Painting:</label>
-                <input type="checkbox">
-            </div>
-            <div>
-                <label for="">Oil Painting</label>
-                <input type="checkbox">
-            </div>
-            <div>
-                <label for="">Sketching</label>
-                <input type="checkbox">
-            </div>
-            <label for="">occupation</label>
-            <div class="select-ocu">
-                <select>
-                    <option>student</option>
-                    <option>bussiness</option>
-                    <option>tutor</option>
-                </select>
-                <div>
-                    <label>Bio</label>
-                    <textarea rows="20" cols="20" placeholder="tell something about you">
-                        
-                    </textarea>
-                </div>
-
-            </div>
-        </div>
-</form>
-
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <table border="10">
+            <tr>
+                <th>Title</th>
+                <th>Age</th>
+                <th>Class</th>
+                <th>Roll No</th>
+                <th>Section</th>
+            </tr>
+            <tr>
+            <td>person1</td>
+                <td>19</td>
+                <td>B-Tech</td>
+                <td colspan="2">32</td>
+                <td rowspan="2">A</td>
+                </tr>
+                <tr>
+                <td>person2</td>
+                <td>20</td>
+                <td>B-Tech</td>
+                <td>44</td>
+                <td>A</td>
+                </tr>
+                <tr>
+                    <td>person3</td>
+                    <td>21</td>
+                    <td>B-Tech</td>
+                    <td>53</td>
+                    <td>A</td>
+                </tr>
+        </table>
+    </center>
+</body>
 </html>
