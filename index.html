@@ -5,25 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .completed{
-            
-
+         #data {
+            display: flex;
+            gap: 2%;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 25%;
+            padding: 20px;
+            /* flex-wrap: wrap; */
+            background-color: aqua;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Array & Object</h1>
-    <h2>Methods</h2>
-    <ul>
-        <li><span>push()</span> : <span>Add new element at last</span></li>
-        <li>pop()</li>
-    </ul>
-    <h3>Operations</h3>
-    <ul>
-        <li>Print or Select</li>
-        <li>Add</li>
-        <li>Update</li>
-        <li>Delete</li>
-        </ul>
-        <script src="./index.js"></script>
+    <div id="data">
+       <button onclick="sum(48,76)">click for sum</button>
+    </div>
+    <script src="./index.js"></script>
 </body>
+</html>
