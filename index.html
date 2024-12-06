@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
     <style>
-         #data {
-            display: flex;
-            gap: 2%;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        .card{
-            width: 25%;
-            padding: 20px;
-            /* flex-wrap: wrap; */
-            background-color: aqua;
-            margin-top: 20px;
-        }
+        .cont{
+    font-size: 20;
+    color: red;
+    font-style: italic;
+}
     </style>
 </head>
 <body>
-    <div id="data">
-       <button onclick="sum(48,76)">click for sum</button>
-    </div>
-    <script src="./index.js"></script>
+    <h1>•Event Listener:</h1>
+    <ul>
+        <div class="cont"> 
+        <li>♣Click</li>
+        <li>♣Mouse Enter</li>
+        <li>♣Mouse Leave</li></div>
+    </ul>
+    <h1>•Important Topics</h1>
+    <ul>
+        <div class="cont">
+        <li>♣Try Catch</li></div>
+        <li>♣Promise: Pending,Resolve, Reject</li>
+        <li>♣Async</li>
+        <li>♣Fetch API</li>
+     </ul>
+    <!-- <div id="data"> -->
+
+        <!-- <button onclick="sum(0+1)">click for sum</button> -->
+        <!-- <div id="display"></div> -->
+         <h1 id="counter">0</h1>
+        <button onmouseenter="incrementValue()">Click me</button>
+        <button onmouseenter="decrementValue()">Click him</button>
+     <!-- </div> -->
+     <script src="./index.js"></script>
 </body>
 </html>
